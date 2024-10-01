@@ -20,7 +20,7 @@ export default function HowItWorks() {
 return (
   <section id="how-it-works" className=" px-1 sm:px-4 md:px-6 lg:px-8 bg-background">
     <div className="max-w-[100rem] mx-auto">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4  h-full bg-foreground text-background rounded-[20px] py-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4  h-full bg-foreground text-muted rounded-[20px] py-5">
         
         <div className="h-full lg:row-span-2 xl:row-span-1 px-5">
             <div className='aspect-video lg:aspect-square relative'>
