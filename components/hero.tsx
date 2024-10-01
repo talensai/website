@@ -7,7 +7,7 @@ import Logo  from './brand/logo'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen px-4 md:px-6 lg:px-8 bg-background">
+    <section id="brief" className="min-h-screen px-4 md:px-6 lg:px-8 bg-background">
       <div className="max-w-[100rem] pt-4 md:pt-6 lg:pt-8 pb-11 mx-auto flex flex-col min-h-screen">
         <div className="flex flex-col md:flex-row justify-between flex-grow">
           <div className="flex flex-col justify-between flex-grow">
