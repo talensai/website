@@ -18,7 +18,7 @@ const CardNumber = ({ number, title, description }: { number:  string; title: st
 export default function HowItWorks() {
 
 return (
-  <section className="pb-12 px-1 sm:px-4 md:px-6 lg:px-8 bg-background">
+  <section id="how-it-works" className=" px-1 sm:px-4 md:px-6 lg:px-8 bg-background">
     <div className="max-w-[100rem] mx-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4  h-full bg-foreground text-background rounded-[20px] py-5">
         
