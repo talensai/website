@@ -7,7 +7,7 @@ const staticBuildEnabled = process.env.STATIC_BUILD_ENABLED === "true";
 const nextConfig = {
   output: staticBuildEnabled ? "export" : undefined,
   images: {
-
+    unoptimized: true
   },
 };
 

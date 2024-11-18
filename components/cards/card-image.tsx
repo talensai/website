@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+import {StaticImport} from "next/dist/shared/lib/get-img-props";
 
-const CardImage = ({ src, alt }: { src: string; alt: string }) => (
+const CardImage = ({ src, alt }: { src: string | StaticImport; alt: string }) => (
   <div className="rounded-[20px] overflow-hidden h-full relative">
     <div className="aspect-square lg:aspect-[2/3] xl:aspect-square w-full h-full bg-foreground">
       <Image

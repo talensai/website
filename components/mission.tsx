@@ -7,6 +7,7 @@ import Globe from './icons/globe';
 import Users from './icons/users';
 import Chat from './icons/chat';
 import Check from './icons/check';
+import OfficeImage from "../app/images/office.jpg"
 
 
 
@@ -41,18 +42,18 @@ return (
         <div className="lg:col-span-2 xl:col-span-1 grid grid-cols-1 sm:grid-cols-2 gap-1">
           {features.map((feature, index) => (
             <div key={index} className="h-full">
-              <CardFeature 
-                icon={feature.icon} 
-                title={feature.title} 
-                description={feature.description} 
+              <CardFeature
+                icon={feature.icon}
+                title={feature.title}
+                description={feature.description}
               />
             </div>
           ))}
         </div>
         <div className="order-first lg:order-last h-full">
-          <CardImage 
-            src="/images/office.jpg"
-            alt="People working together in an office" 
+          <CardImage
+            src={OfficeImage}
+            alt="People working together in an office"
           />
         </div>
       </div>
