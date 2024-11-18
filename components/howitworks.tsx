@@ -32,29 +32,29 @@ return (
         <div className="h-full sm:order-3 lg:order-2 xl:order-last px-5 sm:border-l  border-background/[.2]  xl:border-l-0 after:block after:my-4 after:border-b after:border-background/[.2]  xl:after:hidden">
             <CardNumber 
                 number="1" 
-                title="Nihil sit dolores" 
-                description="Et voluptas eum sunt soluta unde. Totam eaque ut nostrum voluptatem ea vitae. Quod excepturi est voluptas odio nemo eum occaecati." 
+                title="Sign Up and Referral" 
+                description="Candidates join through our referral program, complete a brief pre-screening form, and get scheduled for an AI interview." 
             />  
         </div>
         <div className="h-full sm:order-2 lg:order-3 sm:row-span-2  lg:row-span-1 xl:row-span-2 px-5 sm:border-l border-background/[.2]  after:block after:my-4 after:border-b after:border-background/[.2]  xl:after:hidden flex flex-col justify-end">
             <CardNumber 
                 number="2" 
-                title="Provident quisquam cupiditate" 
-                description="Fugit repellat odio in consequuntur commodi labore assumenda tenetur. Quo commodi aliquam quia." 
+                title="AI Interview Process" 
+                description="Participate in a 30-minute AI-powered interview that evaluates key soft skills through scenario-based questions and simulations." 
             />         
         </div>
         <div className="h-full sm:order-4 xl:row-span-2 px-5 sm:border-l border-background/[.2]  after:block after:my-4 after:border-b after:border-background/[.2]  sm:after:hidden flex flex-col justify-end">
             <CardNumber 
                 number="3" 
-                title="Eum reiciendis dolores" 
-                description="Sit optio est. A molestiae sapiente et. Veniam libero quae non aut ea quibusdam molestiae fugiat. Ab reprehenderit inventore quia dolor consectetur eaque. " 
+                title="Skills Assessment" 
+                description="Receive detailed feedback on soft skills, including problem-solving, communication, adaptability, and areas for improvement." 
             />  
         </div>
         <div className="h-full sm:order-5 xl:row-span-2 px-5 sm:border-l border-background/[.2]  flex flex-col justify-end">
             <CardNumber 
                 number="4" 
-                title="Porro est odio" 
-                description="Beatae eos quidem numquam repellat porro nisi. Quis rem autem voluptatem quae odio molestiae. " 
+                title="Employer Connection" 
+                description="Qualified candidates get connected with potential employers who can review their skill assessments and interview performance." 
             />  
         </div>
 

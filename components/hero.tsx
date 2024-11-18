@@ -13,9 +13,7 @@ export default function Hero() {
           <div className="flex flex-col justify-between flex-grow">
             <div className="max-w-2xl">
               <p className="text-lg md:text-xl text-foreground">
-                Rerum molestiae beatae quasi. Minima voluptatem maiores natus occaecati. Omnis accusamus non. Veniam
-                necessitatibus est exercitationem distinctio minus est. Et quo vel qui voluptates molestiae sint quidem
-                voluptatum sit.
+              Talens is an AI-powered talent assessment platform that evaluates candidates' soft skills through interactive multimedia sessions, connecting exceptional talent from emerging markets with global opportunities.
               </p>
             </div>
             <div className="md:hidden flex items-center justify-center flex-grow">
