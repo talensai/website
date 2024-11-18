@@ -13,24 +13,24 @@ import Check from './icons/check';
 export default function Mission() {
 const features = [
   {
+    icon: <Chat />,
+    title: "Focus on the skills of the future",
+    description: "Traditional developer roles are becoming obsolete. To spot the talent with the skills to excel in the post-ai world, we are focusing on comprehensive soft skill assessments."
+  },
+  {
     icon: <Globe />,
-    title: "Maiores qui rerum",
-    description: "Fugiat ullam dolorum consectetur dignissimos quaerat optio. Sapiente inventore dignissimos quod nihil ad molestiae corporis sint."
+    title: `Uncovering "Dark Talent"`,
+    description: "With remote work now an established practice, exceptional talent is now accessible globally. We identify outstanding undervalued individuals from emerging markets and around the globe."
   },
   {
     icon: <Users />,
-    title: "Autem totam quisquam",
-    description: "Itaque cumque qui numquam unde eveniet alias explicabo ipsam. Ea sit nobis dolorem. Rem perspiciatis velit."
-  },
-  {
-    icon: <Chat />,
-    title: "Dolore est alias",
-    description: "Accusantium rerum quia omnis dolorum ab odio eius dignissimos. Quae consequatur animi iusto. Rem culpa voluptas et."
+    title: "AI-Powered Scale",
+    description: "Through AI-driven automation, we can now assess candidates at unprecedented scale, enabling consistent mass talent evaluation across all corners of the globe."
   },
   {
     icon: <Check />,
-    title: "Est vitae qui",
-    description: "Quibusdam ducimus consequatur iusto aliquid eum repellendus dolorem."
+    title: "Meaningful Matches",
+    description: "Create lasting connections between global employers and exceptional talent through deep skill insights and data-driven matching, ensuring both parties find their ideal fit."
   }
 ]
 

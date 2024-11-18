@@ -17,12 +17,14 @@ export default function Navbar() {
         <Link href="#how-it-works" className="text-foreground hover:text-foreground/[.85] text-sm font-medium whitespace-nowrap">
           How it works
         </Link>
-        <Link 
-          href="#waitlist" 
+        <a 
+          href="https://forms.gle/rukk59uuqNAC6bzJ6" 
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-primary text-foreground hover:bg-primary/[.85] text-sm font-semibold whitespace-nowrap px-4 py-2.5 rounded-full transition-colors duration-300"
         >
           Join waitlist
-        </Link>
+        </a>
       </div>
     </nav>
   )
